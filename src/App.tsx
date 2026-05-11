@@ -2,18 +2,18 @@ import React from 'react'
 import EstiloGlobal, { Container } from './styles'
 import BarraLateral from './containers/BarraLateral'
 import ListaDeContatos from './containers/ListaDeContatos'
-import Menu from './containers/BarraDoTopo'
+import { Provider } from 'react-redux'
+import store from './store'
 
 function App() {
   return (
-    <>
+    <Provider store={store}>
       <EstiloGlobal />
-        <Menu/>
       <Container>
-        <BarraLateral/>
-        <ListaDeContatos/>
+        <BarraLateral />
+        <ListaDeContatos />
       </Container>
-    </>
+    </Provider>
   )
 }
 

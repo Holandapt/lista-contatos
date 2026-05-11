@@ -1,5 +1,7 @@
 {
   "editor.formatOnSave": false,
+  "editorConfig.enable": true,
+  "editorConfig.root": true,
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": "explicit"
   }
