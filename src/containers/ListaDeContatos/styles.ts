@@ -16,7 +16,6 @@ export const Titulo = styled.h1`
   margin-top: 16px;
   padding: 16px;
 `
-
 export const Informacoes = styled.div`
   display: grid;
   grid-template-columns: repeat(4, 1fr);

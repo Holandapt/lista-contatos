@@ -20,7 +20,7 @@ export const Titulo = styled.textarea`
     Google Sans,
     sans-serif;
   color: ${variaveis.corDaFonte};
-  border:none;
+  border: none;
   resize: none;
   background-color: transparent;
   text-align: center;
@@ -31,7 +31,7 @@ export const Email = styled.textarea`
     Google Sans,
     sans-serif;
   color: ${variaveis.corDaFonte};
-  border:none;
+  border: none;
   resize: none;
   background-color: transparent;
   text-align: center;
@@ -42,7 +42,7 @@ export const Numero = styled.textarea`
     Google Sans,
     sans-serif;
   color: ${variaveis.corDaFonte};
-  border:none;
+  border: none;
   resize: none;
   background-color: transparent;
   text-align: center;

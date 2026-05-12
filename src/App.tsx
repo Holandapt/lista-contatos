@@ -4,11 +4,13 @@ import BarraLateral from './containers/BarraLateral'
 import ListaDeContatos from './containers/ListaDeContatos'
 import { Provider } from 'react-redux'
 import store from './store'
+import MenuSuperior from './containers/MenuSuperior'
 
 function App() {
   return (
     <Provider store={store}>
       <EstiloGlobal />
+      <MenuSuperior />
       <Container>
         <BarraLateral />
         <ListaDeContatos />
