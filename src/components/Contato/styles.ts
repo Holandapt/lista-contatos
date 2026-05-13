@@ -11,7 +11,7 @@ export const Card = styled.div`
   border-radius: 10px;
 
   &:hover {
-    background-color: ${variaveis.corDeFundo};
+    background-color: #c2e7ff;
   }
 `
 export const Titulo = styled.textarea`
@@ -24,6 +24,11 @@ export const Titulo = styled.textarea`
   resize: none;
   background-color: transparent;
   text-align: center;
+
+  &:focus {
+    outline: none;
+    border-bottom: 1px solid #000;
+  }
 `
 export const Email = styled.textarea`
   font-size: 14px;
